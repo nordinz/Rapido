@@ -3,30 +3,13 @@ import MaxWidthWrapper from "./ui/MaxWidthWrapper";
 
 const Footer = () => {
   return (
-    <footer className="bg-background">
+    <footer className="bg-background border-t">
       <MaxWidthWrapper>
         <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-md">
             <strong className="block text-center text-xl font-bold text-foreground sm:text-3xl">
               Frågor på det?
             </strong>
-
-            {/* <form className="mt-6">
-              <div className="relative max-w-lg">
-                <label className="sr-only"> Email </label>
-
-                <input
-                  className="w-full rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium"
-                  id="email"
-                  type="email"
-                  placeholder="john@doe.com"
-                />
-
-                <button className="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-foreground transition hover:bg-blue-700">
-                  Subscribe
-                </button>
-              </div>
-            </form> */}
           </div>
 
           <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
@@ -37,7 +20,7 @@ const Footer = () => {
                 repudiandae, provident velit earum?
               </p>
 
-              <div className="mt-6 flex justify-center gap-4 lg:justify-start">
+              {/* <div className="mt-6 flex justify-center gap-4 lg:justify-start">
                 <a
                   className="text-primary transition hover:text-secondary"
                   href=""
@@ -143,7 +126,7 @@ const Footer = () => {
                     />
                   </svg>
                 </a>
-              </div>
+              </div> */}
             </div>
 
             <div className="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">

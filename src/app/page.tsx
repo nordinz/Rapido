@@ -1,5 +1,3 @@
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
 import HeroBot from "@/components/HeroBot";
 import Video from "@/components/Video";
 
@@ -12,7 +10,6 @@ export default function Home() {
       <section className="border-t border-b border-gray-400 bg-background ">
         <HeroBot />
       </section>
-      <Footer />
     </>
   );
 }

@@ -6,7 +6,7 @@ import { ArrowRight, ChevronDown } from "lucide-react";
 const Hero = () => {
   return (
     <>
-      <div className="py-20  mx-auto text-center flex flex-col items-center max-w-3xl">
+      <div className="pt-40 pb-10 sm:py-40 sm:mt-20 lg:py-20  xl:mt-0 mx-auto text-center flex flex-col items-center max-w-3xl gap-5 md:gap-0">
         <h1 className="text-4xl font-bold tracking-tight sm:text-6xl text-foreground lg:text-white px-2.5">
           <span className="text-primary underline decoration-primary">
             Rapido Rör
